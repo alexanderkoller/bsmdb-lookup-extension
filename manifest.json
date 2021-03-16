@@ -1,0 +1,15 @@
+{
+"manifest_version": 2,
+    "name": "Barbershop Contest Score Lookup",
+    "description": "Select a song title or quartet name on a website (e.g. Youtube) and right-click to open the BSMDB page for your selection.",
+    "author": "Alexander Koller",
+    "version": "1.0",
+
+    "permissions": [
+      "contextMenus"
+     ],
+
+    "background": {
+      "scripts": ["background.js"]
+    }
+}
